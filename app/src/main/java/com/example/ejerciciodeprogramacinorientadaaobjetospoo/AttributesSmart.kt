@@ -4,4 +4,4 @@ package com.example.ejerciciodeprogramacinorientadaaobjetospoo
      val screenSize: String,
      val operativeSystem: String,
      val sim: Sim
-) 
+)
