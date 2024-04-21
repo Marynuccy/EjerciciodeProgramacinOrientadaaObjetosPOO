@@ -1,19 +1,20 @@
 package com.example.ejerciciodeprogramacinorientadaaobjetospoo
 
+import android.content.Intent
 import android.os.Bundle
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
-import com.example.ejerciciodeprogramacinorientadaaobjetospoo.databinding.ActivityMainBinding
+import com.example.ejerciciodeprogramacinorientadaaobjetospoo.databinding.ActivitySplashBinding
 
-class MainActivity : AppCompatActivity() {
+class SplashActivity : AppCompatActivity() {
 
-    lateinit var binding : ActivityMainBinding
+    lateinit var binding: ActivitySplashBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        binding = ActivityMainBinding.inflate(layoutInflater)
+        binding = ActivitySplashBinding.inflate(layoutInflater)
         enableEdgeToEdge()
         setContentView(binding.root)
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
@@ -22,7 +23,14 @@ class MainActivity : AppCompatActivity() {
             insets
         }
 
-        val android1 = AttributesSmart("Samsung", "A24", Sim.SINGLE)
+            binding.btContinueSplash.setOnClickListener {
+                val miIntent = Intent (this, DeleteActivity::class.java)
+                startActivity(miIntent)
+            }
+
+
+
+
 
     }
 
