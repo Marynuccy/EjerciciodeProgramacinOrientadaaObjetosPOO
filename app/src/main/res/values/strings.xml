@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Ejercicio de Programación Orientada a Objetos (POO)</string>
+    <string name="welcome"> ¡Bienvenido! </string>
+    <string name="continue_bt"> Continuar </string>
 </resources>
