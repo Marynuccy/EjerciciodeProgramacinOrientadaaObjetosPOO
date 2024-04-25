@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Ejercicio de Programación Orientada a Objetos (POO)</string>
+    <string name="add_message">Agregar</string>
+    <string name="delete_message">Eliminar</string>
+    <string name="search_message">Buscar</string>
+    <string name="welcome_message">¡Bienvenido!</string>
 </resources>
