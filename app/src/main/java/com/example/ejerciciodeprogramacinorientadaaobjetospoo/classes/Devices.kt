@@ -1,4 +1,6 @@
-package com.example.ejerciciodeprogramacinorientadaaobjetospoo
+package com.example.ejerciciodeprogramacinorientadaaobjetospoo.classes
+
+import com.example.ejerciciodeprogramacinorientadaaobjetospoo.`object`.DevicesRegister
 
 open class Devices(val brand: String, val model: String, val state: State, val id: String) {
 

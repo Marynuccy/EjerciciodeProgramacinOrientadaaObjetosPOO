@@ -4,4 +4,11 @@
     <string name="delete_message">Eliminar</string>
     <string name="search_message">Buscar</string>
     <string name="welcome_message">¡Bienvenido!</string>
+    <string name="id_response"> ID: </string>
+    <string name="brand_response">Marca: </string>
+    <string name="state_response">Estado: </string>
+    <string name="model_response">Modelo: </string>
+    <string name="input_id_delete">Ingrese el ID del dispositivo a eliminar:</string>
+    <string name="input_id_search">Ingrese el ID del dispositivo a buscar</string>
+    <string name="search_by_id">Buscar por ID...</string>
 </resources>

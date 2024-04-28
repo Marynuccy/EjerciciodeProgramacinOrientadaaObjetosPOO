@@ -1,4 +1,4 @@
-package com.example.ejerciciodeprogramacinorientadaaobjetospoo
+package com.example.ejerciciodeprogramacinorientadaaobjetospoo.attributes
 
 data class AttributesTablet(
     val screenSize: String,
