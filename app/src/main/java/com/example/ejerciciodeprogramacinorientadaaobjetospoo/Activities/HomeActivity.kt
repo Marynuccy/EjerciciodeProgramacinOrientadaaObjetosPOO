@@ -1,4 +1,4 @@
-package com.example.ejerciciodeprogramacinorientadaaobjetospoo
+package com.example.ejerciciodeprogramacinorientadaaobjetospoo.Activities
 
 import android.content.Intent
 import android.os.Bundle
@@ -6,6 +6,7 @@ import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
+import com.example.ejerciciodeprogramacinorientadaaobjetospoo.R
 import com.example.ejerciciodeprogramacinorientadaaobjetospoo.databinding.ActivityHomeBinding
 
 

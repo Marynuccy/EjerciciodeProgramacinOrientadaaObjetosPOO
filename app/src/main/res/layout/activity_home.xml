@@ -8,7 +8,7 @@
     android:background="@color/white"
     android:gravity="center"
     android:orientation="vertical"
-    tools:context=".HomeActivity">
+    tools:context=".Activities.HomeActivity">
 
     <TextView
         android:id="@+id/welcome_message"
