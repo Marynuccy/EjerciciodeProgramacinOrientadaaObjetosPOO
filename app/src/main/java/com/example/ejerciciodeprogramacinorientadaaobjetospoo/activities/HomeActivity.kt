@@ -1,4 +1,4 @@
-package com.example.ejerciciodeprogramacinorientadaaobjetospoo.Activities
+package com.example.ejerciciodeprogramacinorientadaaobjetospoo.activities
 
 import android.content.Intent
 import android.os.Bundle

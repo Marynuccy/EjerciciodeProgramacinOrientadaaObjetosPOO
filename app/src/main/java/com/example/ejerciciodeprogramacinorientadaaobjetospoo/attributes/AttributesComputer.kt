@@ -1,4 +1,4 @@
-package com.example.ejerciciodeprogramacinorientadaaobjetospoo.Attributes
+package com.example.ejerciciodeprogramacinorientadaaobjetospoo.attributes
 
 data class AttributesComputer(
     val ram : String,
