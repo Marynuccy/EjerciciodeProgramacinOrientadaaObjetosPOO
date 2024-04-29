@@ -11,4 +11,14 @@
     <string name="input_id_delete">Ingrese el ID del dispositivo a eliminar:</string>
     <string name="input_id_search">Ingrese el ID del dispositivo a buscar</string>
     <string name="search_by_id">Buscar por ID...</string>
+    <string name="tablet_add">Tablet</string>
+    <string name="smartphone_add">Smartphone</string>
+    <string name="computer_add">Computadora</string>
+    <string name="add_tablet_message">Agregar Tablet</string>
+    <string name="input_brand_add_tablet">Ingrese la marca del dispositivo:</string>
+    <string name="input_model_add_tablet">Ingrese el modelo del dispositivo:</string>
+    <string name="input_state_add_tablet">Ingrese el estado del dispositivo:</string>
+    <string name="input_id_add_tablet">Ingrese el id del dispositivo:</string>
+    <string name="bt_agregar_add_tablet"> Agregar </string>
+
 </resources>
