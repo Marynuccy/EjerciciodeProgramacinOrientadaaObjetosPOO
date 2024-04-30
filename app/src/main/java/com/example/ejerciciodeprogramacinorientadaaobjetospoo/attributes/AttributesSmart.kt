@@ -7,4 +7,4 @@ data class AttributesSmart(
      val operativeSystem: String,
      val sim: Sim,
      val cameraPixel: String
-)
+) : DeviceAttributes

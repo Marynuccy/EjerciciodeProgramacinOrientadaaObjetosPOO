@@ -5,4 +5,4 @@ data class AttributesComputer(
     val mother : String,
     val processor : String,
     val graphicCard : String
-)
+) : DeviceAttributes

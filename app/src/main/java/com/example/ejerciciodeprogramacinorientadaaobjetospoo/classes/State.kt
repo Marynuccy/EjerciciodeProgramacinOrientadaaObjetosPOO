@@ -1,5 +1,5 @@
 package com.example.ejerciciodeprogramacinorientadaaobjetospoo.classes
 
-enum class State {
-    NEW, USED, REPAIRING, BROKEN
+enum class State(val value: String) {
+    NEW("nuevo"), USED("usado"), REPAIRING("en reparacion"), BROKEN("roto")
 }

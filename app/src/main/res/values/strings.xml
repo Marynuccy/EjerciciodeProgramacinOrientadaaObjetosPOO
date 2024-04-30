@@ -33,10 +33,10 @@
     <string name="bt_continuar_add_computer"> Continuar </string>
     //add smartphone
     <string name="add_smartphone_message">Agregar Smartphone</string>
-    <string name="input_brand_add_smartphone">Ingrese la marca de su smartphone:</string>
-    <string name="input_model_add_smartphone">Ingrese el modelo de su smartphone:</string>
-    <string name="input_state_add_smartphone">Ingrese el estado de su smartphone:</string>
-    <string name="input_id_add_smartphone">Ingrese el id de su smartphone:</string>
+    <string name="input_brand_add_smartphone">Ingrese la marca:</string>
+    <string name="input_model_add_smartphone">Ingrese el modelo:</string>
+    <string name="input_state_add_smartphone">Ingrese el estado:</string>
+    <string name="input_id_add_smartphone">Ingrese el id:</string>
     <string name="bt_continuar_add_smartphone"> Continuar </string>
     //especificaciones tablet
     <string name="specification_tablet_message">Especificaciones de su Tablet</string>
@@ -48,7 +48,7 @@
     <string name="input_ram_specification_computer">Ingrese la cantidad de ram:</string>
     <string name="input_mother_specification_computer">Ingrese la mother:</string>
     <string name="input_processor_specification_computer">Ingrese el procesador:</string>
-    <string name="input_graphic_card_specification_computer">Ingrese la griafica:</string>
+    <string name="input_graphic_card_specification_computer">Ingrese la grafica:</string>
     <string name="bt_agregar_specification_computer"> Agregar </string>
     //especificaciones smartphone
     <string name="specification_smartphone_message">Especificaciones de su smartphone</string>

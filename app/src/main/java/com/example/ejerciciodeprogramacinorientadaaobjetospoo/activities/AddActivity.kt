@@ -25,7 +25,7 @@ class AddActivity : AppCompatActivity() {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
-
+        actions()
     }
     fun actions() {
         binding.btComputerAdd.setOnClickListener {
