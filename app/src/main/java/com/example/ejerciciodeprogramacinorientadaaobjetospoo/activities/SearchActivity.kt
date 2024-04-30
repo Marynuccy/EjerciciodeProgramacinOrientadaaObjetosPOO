@@ -13,7 +13,7 @@ import com.example.ejerciciodeprogramacinorientadaaobjetospoo.databinding.Activi
 import com.example.ejerciciodeprogramacinorientadaaobjetospoo.`object`.DevicesRegister
 
 class SearchActivity : AppCompatActivity() {
-    lateinit var binding: ActivitySearchBinding
+    private lateinit var binding: ActivitySearchBinding
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivitySearchBinding.inflate(layoutInflater)
@@ -27,7 +27,7 @@ class SearchActivity : AppCompatActivity() {
         miSearch(DevicesRegister.listOfDevices)
     }
 
-    fun miSearch(myList: List<Devices>) {
+    private fun miSearch(myList: List<Devices>) {
 
         val listId = mutableListOf<String>()
 
