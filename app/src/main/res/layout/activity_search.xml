@@ -49,7 +49,7 @@
         android:background="@drawable/background_black"
         android:orientation="vertical">
 
-        <SearchView
+        <androidx.appcompat.widget.SearchView
             android:id="@+id/sv_search_activity"
             android:layout_width="match_parent"
             android:layout_height="match_parent"

@@ -30,26 +30,38 @@ class SearchActivity : AppCompatActivity() {
     }
 
     fun miSearch(myList: List<Devices>) {
+
         val listId = mutableListOf<String>()
 
-        for (itemList in myList){
+        for (itemList in myList) {
             listId.add(itemList.id)
         }
 
-        binding.svSearchActivity.setOnQueryTextListener(object : SearchView.OnQueryTextListener {
+        binding.svSearchActivity.setOnQueryTextListener(object :
+            androidx.appcompat.widget.SearchView.OnQueryTextListener {
             override fun onQueryTextSubmit(query: String?): Boolean {
 
                 return false
             }
 
             override fun onQueryTextChange(newText: String?): Boolean {
+
                 if (listId.contains(newText)) {
-                    Toast.makeText(this@SearchActivity, "Dispositivo encontrado", Toast.LENGTH_SHORT).show()
+                    Toast.makeText(
+                        this@SearchActivity,
+                        "Dispositivo encontrado",
+                        Toast.LENGTH_SHORT
+                    ).show()
                 } else {
-                    Toast.makeText(this@SearchActivity, "Dispositivo no encontrado", Toast.LENGTH_SHORT).show()
+                    Toast.makeText(
+                        this@SearchActivity,
+                        "Dispositivo no encontrado",
+                        Toast.LENGTH_SHORT
+                    ).show()
                 }
                 return false
             }
+
         })
     }
 
