@@ -54,8 +54,7 @@
             android:layout_margin="1dp"
             android:background="@drawable/input_background"
             android:inputType="text"
-            android:paddingStart="10dp"
-            >
+            android:paddingStart="10dp">
 
         </com.example.ejerciciodeprogramacinorientadaaobjetospoo.activities.SearchViewDevices>
     </LinearLayout>

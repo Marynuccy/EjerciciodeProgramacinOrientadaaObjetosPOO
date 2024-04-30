@@ -43,6 +43,7 @@
         android:background="@drawable/background_black">
 
         <EditText
+            android:id="@+id/edit_text_ram_specification_computer"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_margin="1dp"
@@ -73,6 +74,7 @@
         android:background="@drawable/background_black">
 
         <EditText
+            android:id="@+id/edit_text_mother_specification_computer"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_margin="1dp"
@@ -103,6 +105,7 @@
         android:background="@drawable/background_black">
 
         <EditText
+            android:id="@+id/edit_text_processor_specification_computer"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_margin="1dp"
@@ -113,6 +116,7 @@
 
         </EditText>
     </LinearLayout>
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -132,6 +136,7 @@
         android:background="@drawable/background_black">
 
         <EditText
+            android:id="@+id/edit_text_graphic_card_specification_computer"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_margin="1dp"
@@ -144,16 +149,16 @@
     </LinearLayout>
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/bt_smartphone_add"
+        android:id="@+id/bt_computer_specification_continuar"
         android:layout_width="270dp"
         android:layout_height="50dp"
+        android:layout_marginLeft="65dp"
         android:layout_marginTop="60dp"
         android:background="@drawable/bt_search_background"
         android:text="@string/bt_agregar_specification_computer"
         android:textAllCaps="false"
         android:textColor="@color/black"
-        android:textStyle="bold"
-        android:layout_marginLeft="65dp"
-        android:textSize="25sp" />
+        android:textSize="25sp"
+        android:textStyle="bold" />
 
 </LinearLayout>
