@@ -31,6 +31,7 @@ class DevicesHolder(view : View) : RecyclerView.ViewHolder(view){
         binding.textBrand.text = value.brand
         binding.textId.text = value.id
         binding.textModel.text = value.model
+        binding.textState.text = value.state.toString()
     }
 
 }
