@@ -9,6 +9,7 @@ import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import com.example.ejerciciodeprogramacinorientadaaobjetospoo.classes.Devices
 import com.example.ejerciciodeprogramacinorientadaaobjetospoo.R
+import com.example.ejerciciodeprogramacinorientadaaobjetospoo.classes.DevicesAdapter
 import com.example.ejerciciodeprogramacinorientadaaobjetospoo.databinding.ActivitySearchBinding
 import com.example.ejerciciodeprogramacinorientadaaobjetospoo.`object`.DevicesRegister
 
@@ -25,6 +26,7 @@ class SearchActivity : AppCompatActivity() {
             insets
         }
         miSearch(DevicesRegister.listOfDevices)
+        initRecyclerView()
     }
 
     private fun miSearch(myList: List<Devices>) {
@@ -59,6 +61,11 @@ class SearchActivity : AppCompatActivity() {
                 return false
             }
         })
+    }
+
+    private fun initRecyclerView(){
+        val adapter = DevicesAdapter(DevicesRegister.listOfDevices)
+        binding.rvDevices.adapter = adapter
     }
 
 }
