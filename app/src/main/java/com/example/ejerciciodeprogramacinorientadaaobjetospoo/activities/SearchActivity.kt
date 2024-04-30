@@ -1,8 +1,9 @@
 package com.example.ejerciciodeprogramacinorientadaaobjetospoo.activities
 
-import android.content.Context
+
 import android.os.Bundle
 import android.widget.SearchView
+import android.widget.SearchView.OnQueryTextListener
 import android.widget.Toast
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
@@ -11,6 +12,7 @@ import androidx.core.view.WindowInsetsCompat
 import com.example.ejerciciodeprogramacinorientadaaobjetospoo.classes.Devices
 import com.example.ejerciciodeprogramacinorientadaaobjetospoo.R
 import com.example.ejerciciodeprogramacinorientadaaobjetospoo.databinding.ActivitySearchBinding
+import com.example.ejerciciodeprogramacinorientadaaobjetospoo.`object`.DevicesRegister
 
 class SearchActivity : AppCompatActivity() {
     lateinit var binding: ActivitySearchBinding
@@ -24,15 +26,19 @@ class SearchActivity : AppCompatActivity() {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
+        miSearch(DevicesRegister.listOfDevices)
     }
 
     fun miSearch(myList: List<Devices>) {
+
         val listId = mutableListOf<String>()
-        
-        for (itemList in myList){
-             listId.add(itemList.id)
+
+        for (itemList in myList) {
+            listId.add(itemList.id)
         }
-        binding.svSearchActivity.setOnQueryTextListener(object : SearchView.OnQueryTextListener {
+
+        binding.svSearchActivity.setOnQueryTextListener(object :
+            androidx.appcompat.widget.SearchView.OnQueryTextListener {
             override fun onQueryTextSubmit(query: String?): Boolean {
 
                 return false
@@ -40,19 +46,23 @@ class SearchActivity : AppCompatActivity() {
 
             override fun onQueryTextChange(newText: String?): Boolean {
 
-                if (listId.contains(newText)){
-                    Toast.makeText(this@SearchActivity, "Dispositivo encontrado", Toast.LENGTH_SHORT).show()
-                }else{
-                    Toast.makeText(this@SearchActivity, "Dispositivo no encontrado", Toast.LENGTH_SHORT).show()
+                if (listId.contains(newText)) {
+                    Toast.makeText(
+                        this@SearchActivity,
+                        "Dispositivo encontrado",
+                        Toast.LENGTH_SHORT
+                    ).show()
+                } else {
+                    Toast.makeText(
+                        this@SearchActivity,
+                        "Dispositivo no encontrado",
+                        Toast.LENGTH_SHORT
+                    ).show()
                 }
                 return false
             }
+
         })
     }
-}
 
-class SearchViewDevices(val context: Context): SearchView(context){
-    override fun setOnQueryTextListener(listener: OnQueryTextListener?) {
-        super.setOnQueryTextListener(listener)
-    }
 }
