@@ -17,7 +17,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:gravity="center"
-            android:text="@string/add_tablet_message"
+            android:text="@string/specification_tablet_message"
             android:textColor="@color/black"
             android:textSize="30sp"
             android:textStyle="bold" />
@@ -29,7 +29,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="50sp"
         android:gravity="center"
-        android:text="@string/input_id_add_tablet"
+        android:text="@string/input_screensize_specification_tablet"
         android:textSize="20sp"
         android:textStyle="bold" />
 
@@ -47,7 +47,7 @@
             android:layout_height="match_parent"
             android:layout_margin="1dp"
             android:background="@drawable/input_background"
-            android:hint="ID:"
+            android:hint="centimetros:"
             android:inputType="text"
             android:paddingStart="10dp">
 
@@ -59,7 +59,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="50sp"
         android:gravity="center"
-        android:text="@string/input_brand_add_tablet"
+        android:text="@string/input_operativesystem_specification_tablet"
         android:textSize="20sp"
         android:textStyle="bold" />
 
@@ -77,7 +77,7 @@
             android:layout_height="match_parent"
             android:layout_margin="1dp"
             android:background="@drawable/input_background"
-            android:hint="Marca"
+            android:hint="Sistema:"
             android:inputType="text"
             android:paddingStart="10dp">
 
@@ -89,7 +89,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="50sp"
         android:gravity="center"
-        android:text="@string/input_model_add_tablet"
+        android:text="@string/input_camera_pixels_specification_tablet"
         android:textSize="20sp"
         android:textStyle="bold" />
 
@@ -107,37 +107,7 @@
             android:layout_height="match_parent"
             android:layout_margin="1dp"
             android:background="@drawable/input_background"
-            android:hint="Modelo:"
-            android:inputType="text"
-            android:paddingStart="10dp">
-
-        </EditText>
-    </LinearLayout>
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="50sp"
-        android:gravity="center"
-        android:text="@string/input_state_add_tablet"
-        android:textSize="20sp"
-        android:textStyle="bold" />
-
-    <LinearLayout
-        android:id="@+id/input_estado_add_tablet"
-        android:layout_width="match_parent"
-        android:layout_height="40dp"
-        android:layout_marginStart="30dp"
-        android:layout_marginTop="2dp"
-        android:layout_marginEnd="30dp"
-        android:background="@drawable/background_black">
-
-        <EditText
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_margin="1dp"
-            android:background="@drawable/input_background"
-            android:hint="Estado:"
+            android:hint="Pixeles:"
             android:inputType="text"
             android:paddingStart="10dp">
 

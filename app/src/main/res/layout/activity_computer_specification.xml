@@ -17,7 +17,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:gravity="center"
-            android:text="@string/add_tablet_message"
+            android:text="@string/specification_computer_message"
             android:textColor="@color/black"
             android:textSize="30sp"
             android:textStyle="bold" />
@@ -29,12 +29,12 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="50sp"
         android:gravity="center"
-        android:text="@string/input_id_add_tablet"
+        android:text="@string/input_ram_specification_computer"
         android:textSize="20sp"
         android:textStyle="bold" />
 
     <LinearLayout
-        android:id="@+id/input_tablet_ID_id"
+        android:id="@+id/input_ram_specification_computer"
         android:layout_width="match_parent"
         android:layout_height="40dp"
         android:layout_marginStart="30dp"
@@ -47,7 +47,7 @@
             android:layout_height="match_parent"
             android:layout_margin="1dp"
             android:background="@drawable/input_background"
-            android:hint="ID:"
+            android:hint="Cantidad:"
             android:inputType="text"
             android:paddingStart="10dp">
 
@@ -59,42 +59,12 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="50sp"
         android:gravity="center"
-        android:text="@string/input_brand_add_tablet"
+        android:text="@string/input_mother_specification_computer"
         android:textSize="20sp"
         android:textStyle="bold" />
 
     <LinearLayout
-        android:id="@+id/input_marca_add_tablet"
-        android:layout_width="match_parent"
-        android:layout_height="40dp"
-        android:layout_marginStart="30dp"
-        android:layout_marginTop="2dp"
-        android:layout_marginEnd="30dp"
-        android:background="@drawable/background_black">
-
-        <EditText
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_margin="1dp"
-            android:background="@drawable/input_background"
-            android:hint="Marca"
-            android:inputType="text"
-            android:paddingStart="10dp">
-
-        </EditText>
-    </LinearLayout>
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="50sp"
-        android:gravity="center"
-        android:text="@string/input_model_add_tablet"
-        android:textSize="20sp"
-        android:textStyle="bold" />
-
-    <LinearLayout
-        android:id="@+id/input_modelo_add_tablet"
+        android:id="@+id/input_mother_specification_computer"
         android:layout_width="match_parent"
         android:layout_height="40dp"
         android:layout_marginStart="30dp"
@@ -119,12 +89,12 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="50sp"
         android:gravity="center"
-        android:text="@string/input_state_add_tablet"
+        android:text="@string/input_processor_specification_computer"
         android:textSize="20sp"
         android:textStyle="bold" />
 
     <LinearLayout
-        android:id="@+id/input_estado_add_tablet"
+        android:id="@+id/input_processor_specification_computer"
         android:layout_width="match_parent"
         android:layout_height="40dp"
         android:layout_marginStart="30dp"
@@ -137,7 +107,36 @@
             android:layout_height="match_parent"
             android:layout_margin="1dp"
             android:background="@drawable/input_background"
-            android:hint="Estado:"
+            android:hint="Modelo:"
+            android:inputType="text"
+            android:paddingStart="10dp">
+
+        </EditText>
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50sp"
+        android:gravity="center"
+        android:text="@string/input_graphic_card_specification_computer"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:id="@+id/input_graphic_card_specification_computer"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="30dp"
+        android:background="@drawable/background_black">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="1dp"
+            android:background="@drawable/input_background"
+            android:hint="Modelo:"
             android:inputType="text"
             android:paddingStart="10dp">
 
@@ -150,7 +149,7 @@
         android:layout_height="50dp"
         android:layout_marginTop="60dp"
         android:background="@drawable/bt_search_background"
-        android:text="@string/bt_continuar_add_tablet"
+        android:text="@string/bt_agregar_specification_computer"
         android:textAllCaps="false"
         android:textColor="@color/black"
         android:textStyle="bold"

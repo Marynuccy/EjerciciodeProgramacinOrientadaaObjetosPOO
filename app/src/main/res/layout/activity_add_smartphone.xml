@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -13,11 +12,11 @@
         android:orientation="vertical">
 
         <TextView
-            android:id="@+id/text_add_tablet_activity"
+            android:id="@+id/text_add_smartphone_activity"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:gravity="center"
-            android:text="@string/add_tablet_message"
+            android:text="@string/add_smartphone_message"
             android:textColor="@color/black"
             android:textSize="30sp"
             android:textStyle="bold" />
@@ -29,12 +28,12 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="50sp"
         android:gravity="center"
-        android:text="@string/input_id_add_tablet"
+        android:text="@string/input_id_add_smartphone"
         android:textSize="20sp"
         android:textStyle="bold" />
 
     <LinearLayout
-        android:id="@+id/input_tablet_ID_id"
+        android:id="@+id/input_smartphone_ID_id"
         android:layout_width="match_parent"
         android:layout_height="40dp"
         android:layout_marginStart="30dp"
@@ -59,12 +58,12 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="50sp"
         android:gravity="center"
-        android:text="@string/input_brand_add_tablet"
+        android:text="@string/input_brand_add_smartphone"
         android:textSize="20sp"
         android:textStyle="bold" />
 
     <LinearLayout
-        android:id="@+id/input_marca_add_tablet"
+        android:id="@+id/input_marca_add_smartphone"
         android:layout_width="match_parent"
         android:layout_height="40dp"
         android:layout_marginStart="30dp"
@@ -89,12 +88,12 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="50sp"
         android:gravity="center"
-        android:text="@string/input_model_add_tablet"
+        android:text="@string/input_model_add_smartphone"
         android:textSize="20sp"
         android:textStyle="bold" />
 
     <LinearLayout
-        android:id="@+id/input_modelo_add_tablet"
+        android:id="@+id/input_modelo_add_smartphone"
         android:layout_width="match_parent"
         android:layout_height="40dp"
         android:layout_marginStart="30dp"
@@ -119,12 +118,12 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="50sp"
         android:gravity="center"
-        android:text="@string/input_state_add_tablet"
+        android:text="@string/input_state_add_smartphone"
         android:textSize="20sp"
         android:textStyle="bold" />
 
     <LinearLayout
-        android:id="@+id/input_estado_add_tablet"
+        android:id="@+id/input_estado_add_smartphone"
         android:layout_width="match_parent"
         android:layout_height="40dp"
         android:layout_marginStart="30dp"
@@ -150,7 +149,7 @@
         android:layout_height="50dp"
         android:layout_marginTop="60dp"
         android:background="@drawable/bt_search_background"
-        android:text="@string/bt_continuar_add_tablet"
+        android:text="@string/bt_agregar_add_tablet"
         android:textAllCaps="false"
         android:textColor="@color/black"
         android:textStyle="bold"
