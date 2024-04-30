@@ -4,5 +4,5 @@ data class AttributesComputer(
     val ram : String,
     val mother : String,
     val processor : String,
-    val typeCpu : String
+    val graphicCard : String
 )
