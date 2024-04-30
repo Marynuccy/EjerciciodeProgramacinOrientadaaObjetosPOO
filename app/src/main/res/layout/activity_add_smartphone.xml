@@ -150,7 +150,7 @@
         android:layout_marginLeft="65dp"
         android:layout_marginTop="60dp"
         android:background="@drawable/bt_search_background"
-        android:text="@string/bt_agregar_add_tablet"
+        android:text="@string/bt_continuar_add_smartphone"
         android:textAllCaps="false"
         android:textColor="@color/black"
         android:textSize="25sp"
