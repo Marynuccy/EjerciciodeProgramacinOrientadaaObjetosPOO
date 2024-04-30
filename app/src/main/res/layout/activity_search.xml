@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
@@ -45,18 +46,18 @@
         android:layout_marginStart="30dp"
         android:layout_marginTop="2dp"
         android:layout_marginEnd="30dp"
-        android:background="@drawable/background_black">
+        android:background="@drawable/background_black"
+        android:orientation="vertical">
 
-        <com.example.ejerciciodeprogramacinorientadaaobjetospoo.activities.SearchViewDevices
+        <androidx.appcompat.widget.SearchView
             android:id="@+id/sv_search_activity"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_margin="1dp"
             android:background="@drawable/input_background"
             android:inputType="text"
-            android:paddingStart="10dp">
+            android:paddingStart="10dp"/>
 
-        </com.example.ejerciciodeprogramacinorientadaaobjetospoo.activities.SearchViewDevices>
     </LinearLayout>
 
     <LinearLayout
