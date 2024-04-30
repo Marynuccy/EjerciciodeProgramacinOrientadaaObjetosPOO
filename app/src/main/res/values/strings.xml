@@ -1,14 +1,57 @@
 <resources>
     <string name="app_name">Ejercicio de Programación Orientada a Objetos (POO)</string>
+    //home activity
     <string name="add_message">Agregar</string>
     <string name="delete_message">Eliminar</string>
     <string name="search_message">Buscar</string>
     <string name="welcome_message">¡Bienvenido!</string>
+    //delete activity
     <string name="id_response"> ID: </string>
     <string name="brand_response">Marca: </string>
     <string name="state_response">Estado: </string>
     <string name="model_response">Modelo: </string>
     <string name="input_id_delete">Ingrese el ID del dispositivo a eliminar:</string>
-    <string name="input_id_search">Ingrese el ID del dispositivo a buscar</string>
+    <string name="input_id_search">Ingrese el ID del dispositivo a buscar:</string>
     <string name="search_by_id">Buscar por ID...</string>
+    //add activity
+    <string name="tablet_add">Tablet</string>
+    <string name="smartphone_add">Smartphone</string>
+    <string name="computer_add">Computadora</string>
+    //add tablet
+    <string name="add_tablet_message">Agregar Tablet</string>
+    <string name="input_brand_add_tablet">Ingrese la marca de su tablet:</string>
+    <string name="input_model_add_tablet">Ingrese el modelo de su tablet:</string>
+    <string name="input_state_add_tablet">Ingrese el estado de su tablet:</string>
+    <string name="input_id_add_tablet">Ingrese el id de su tablet:</string>
+    <string name="bt_continuar_add_tablet"> Continuar </string>
+    //add computer
+    <string name="add_computer_message">Agregar Computadora</string>
+    <string name="input_brand_add_computer">Ingrese la marca de su computadora:</string>
+    <string name="input_model_add_computer">Ingrese el modelo de su computadora:</string>
+    <string name="input_state_add_computer">Ingrese el estado de su computadora:</string>
+    <string name="input_id_add_computer">Ingrese el id de su computadora:</string>
+    //add smartphone
+    <string name="add_smartphone_message">Agregar Smartphone</string>
+    <string name="input_brand_add_smartphone">Ingrese la marca de su smartphone:</string>
+    <string name="input_model_add_smartphone">Ingrese el modelo de su smartphone:</string>
+    <string name="input_state_add_smartphone">Ingrese el estado de su smartphone:</string>
+    <string name="input_id_add_smartphone">Ingrese el id de su smartphone:</string>
+    //especificaciones tablet
+    <string name="specification_tablet_message">Especificaciones de su Tablet</string>
+    <string name="input_screensize_specification_tablet">Ingrese el tamaño:</string>
+    <string name="input_camera_pixels_specification_tablet">Ingrese la cantidad de pixeles de la camara:</string>
+    <string name="input_operative_system_specification_tablet">Ingrese el sistema operativo:</string>
+    //especificacionescomputadora
+    <string name="specification_computer_message">Especificaciones de su computadora</string>
+    <string name="input_ram_specification_computer">Ingrese la cantidad de ram:</string>
+    <string name="input_mother_specification_computer">Ingrese la mother:</string>
+    <string name="input_processor_specification_computer">Ingrese el procesador:</string>
+    <string name="input_graphic_card_specification_computer">Ingrese la griafica:</string>
+    <string name="bt_agregar_specification_computer"> Agregar </string>
+    //especificaciones smartphone
+    <string name="specification_smartphone_message">Especificaciones de su smartphone</string>
+    <string name="input_screen_size_specification_smartphone">Ingrese el tamaño:</string>
+    <string name="input_camera_pixels_specification_smartphone">Ingrese la cantidad de pixeles de la camara:</string>
+    <string name="input_operative_system_specification_smartphone">Ingrese el sistema operativo:</string>
+    <string name="input_sim_specification_smartphone">Ingrese la cantidad de sims:</string>
 </resources>
