@@ -2,8 +2,6 @@ package com.example.ejerciciodeprogramacinorientadaaobjetospoo.activities
 
 
 import android.os.Bundle
-import android.widget.SearchView
-import android.widget.SearchView.OnQueryTextListener
 import android.widget.Toast
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
@@ -11,11 +9,12 @@ import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import com.example.ejerciciodeprogramacinorientadaaobjetospoo.classes.Devices
 import com.example.ejerciciodeprogramacinorientadaaobjetospoo.R
+import com.example.ejerciciodeprogramacinorientadaaobjetospoo.classes.DevicesAdapter
 import com.example.ejerciciodeprogramacinorientadaaobjetospoo.databinding.ActivitySearchBinding
 import com.example.ejerciciodeprogramacinorientadaaobjetospoo.`object`.DevicesRegister
 
 class SearchActivity : AppCompatActivity() {
-    lateinit var binding: ActivitySearchBinding
+    private lateinit var binding: ActivitySearchBinding
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivitySearchBinding.inflate(layoutInflater)
@@ -27,9 +26,10 @@ class SearchActivity : AppCompatActivity() {
             insets
         }
         miSearch(DevicesRegister.listOfDevices)
+        initRecyclerView()
     }
 
-    fun miSearch(myList: List<Devices>) {
+    private fun miSearch(myList: List<Devices>) {
 
         val listId = mutableListOf<String>()
 
@@ -37,8 +37,7 @@ class SearchActivity : AppCompatActivity() {
             listId.add(itemList.id)
         }
 
-        binding.svSearchActivity.setOnQueryTextListener(object :
-            androidx.appcompat.widget.SearchView.OnQueryTextListener {
+        binding.svSearchActivity.setOnQueryTextListener(object : androidx.appcompat.widget.SearchView.OnQueryTextListener {
             override fun onQueryTextSubmit(query: String?): Boolean {
 
                 return false
@@ -61,8 +60,12 @@ class SearchActivity : AppCompatActivity() {
                 }
                 return false
             }
-
         })
+    }
+
+    private fun initRecyclerView(){
+        val adapter = DevicesAdapter(DevicesRegister.listOfDevices)
+        binding.rvDevices.adapter = adapter
     }
 
 }
